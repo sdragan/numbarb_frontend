@@ -1,5 +1,57 @@
 <html>
+<head>
+	<title>Numbarb - static page example</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			background: radial-gradient(circle at 50% 120%, #e50058 0%, #17358a 100%);
+			font-family: 'Roboto', sans-serif;
+		}
+		input {
+			outline: none;	
+			box-sizing: border-box;
+			z-index: 0;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding: 10px;
+			height: 60px;
+			width: 100%;
+			border-radius: 60px;
+			border: none;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		button {
+			outline: none;
+			font-size: 20px;
+			cursor: pointer;
+			background: #E50058;
+			border: none;
+			color: #FFF;
+			font-weight: bold;
+			height: 60px;
+			border-radius: 60px;
+			padding: 0px 40px;
+			display: block;
+			margin:auto;
+			width:50%;
+		}
+	</style>
+</head>	
 <body>
-Hello world!
+	<img src="logo.png" alt="logo" style="margin-left: 20px;margin-top: 20px">
+	<div style="width: 50%;margin:auto;">
+		<h1 style="text-align:center;color:white;width: 100%;">Der clevere Art, ganze Zahlen in Wörter umzuwandeln</h1>
+		<p style="text-align:center;color:white;width: 100%;">Nutze die kostenlose numbarb Website, um (fast) beliebige ganze Zahlen in Wörter umzuwandeln und sichere dir die Chance, große Entwickler ins Team zu bekommen</p>
+		<div style="width: 50%;margin:auto;">
+		<input type="text" autocomplete="off">
+		<button type="submit">Convert</button>
+		<h2 style="text-align:center;color:white;width: 100%;"></p>
+		</div>
+	</div>
 </body>
 </html>
